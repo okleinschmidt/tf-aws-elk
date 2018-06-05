@@ -14,4 +14,5 @@ module "es" {
   es_version                = "${var.es_version}"
   es_zone_awareness         = "${var.es_zone_awareness}"
   ebs_volume_size           = "${var.ebs_volume_size}"
+  snapshot_start_hour       = "${var.snapshot_start_hour}"
 }
